@@ -1,0 +1,113 @@
+* {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a, li, p {
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, footer p {
+    font-family: "Fuzzy Bubbles", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+li span {
+    margin-left: 20px;
+}
+
+#hero {
+    text-align: center;
+    padding: 120px;
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+#main-container {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    /* margin: 40px 30px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-container h2 {
+    padding: 15px 30px;
+}
+
+.last {
+    border-bottom: none !important;
+}
+
+#project {
+    border-right: 2px solid black;
+}
+
+#project p {
+    border-bottom: 2px solid black;
+    padding: 15px 30px;
+}
+
+#work-experience {
+    border-right: 2px solid black;
+}
+
+.work-experience-container {
+    border-bottom: 2px solid black;
+    padding: 30px;
+}
+
+.work-experience-container a {
+    color: rgb(0, 104, 133);
+    padding-top: 10px !important;
+}
+
+.education-content {
+    padding: 30px;
+}
+
+#review {
+    margin: 40px 30px;
+}
+
+.review-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.review-content {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.teacher-detail {
+    margin-top: 10px;
+    color: grey;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+}
